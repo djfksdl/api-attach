@@ -51,7 +51,7 @@ public class AttachService {
 		System.out.println(fileSize);
 
 		// 파일전체경로
-		String filePath = saveDir + File.separator + saveName;
+		String filePath = saveDir + File.separator + saveName; //운영체제별로 디렉토리표시를 다르게 붙여줌
 		System.out.println(filePath);
 
 		// vo로묶기
